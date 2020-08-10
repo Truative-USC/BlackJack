@@ -229,7 +229,7 @@ public class BJClient extends Thread {
 		this.gameCanStart = gameCanStart;
 	}
 	public static void main(String[] args) throws IOException {
-		System.out.println("Welcome to my BJ Server. Where we go fulllll send. Ready, set, full send!");
+		System.out.println("Welcome to Black Jack Server.");
 		int port = 0;
 		Scanner input = new Scanner(System.in);
 		BJClient client = null;
